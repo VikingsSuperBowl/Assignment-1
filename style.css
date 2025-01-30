@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+body {
+  background-color: #f9f7f1;
+  font-family: 'PT Serif', serif;
+  color: #404040;
+  padding: 0 24px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=PT+Serif&display=swap');
+ 
+h1 {
+  font-weight: 700;
+  font-size: 4 rem;
+  font-family:'Oswald', sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+    font:'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+   
+  h3 {
+    font: 2rem/.95 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  time {
+    font: 700 1.5rem 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+   
+    border-top: 3px solid #333333;
+    border-bottom: 3px solid #333333;
+    padding: 12px 0;
+   
+    display: block;
+  }
+  time sup {
+    font-size: .875rem;
+    font-weight: normal;
+  }
+
+  .traviskelce img {
+    width: 70%; 
+    margin: auto;
+    display: block;
+}
+
+  figcaption {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+  }
+
+  @media(min-width: 955px) {
+    article {
+      column-count: 3;
+    }
+  }
+
+  .piechart {
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: 80%;
+  }
