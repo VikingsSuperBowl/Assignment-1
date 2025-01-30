@@ -3,7 +3,6 @@
 body {
   background-color: #f9f7f1;
   font-family: 'PT Serif', serif;
-  color: #404040;
   padding: 0 24px;
 }
 
@@ -35,8 +34,8 @@ h2 {
     text-align: center;
     text-transform: uppercase;
    
-    border-top: 3px solid #333333;
-    border-bottom: 3px solid #333333;
+    border-top: 3px solid black !important;
+    border-bottom: 3px solid black !important;
     padding: 12px 0;
    
     display: block;
@@ -69,3 +68,9 @@ h2 {
     height: auto;
     width: 60%;
   }
+
+  hr {
+    opacity: 100% !important;
+    border: solid black 2px !important;
+  }
+  
