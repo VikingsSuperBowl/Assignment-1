@@ -9,7 +9,7 @@ body {
 
 body::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0; /* Added top property to ensure it starts from the top */
     left: 0;
     width: 100%;
